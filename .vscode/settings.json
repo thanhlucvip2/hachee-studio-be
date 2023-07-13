@@ -1,0 +1,26 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "cSpell.ignorePaths": [
+    "package-lock.json",
+    "package.json",
+    "node_modules",
+    "vscode-extension",
+    ".git/objects",
+    ".vscode",
+    ".vscode-insiders",
+    ".eslintrc.js"
+  ],
+  "cSpell.ignoreWords": ["hachee", "middlewares"],
+  "cSpell.words": ["datepicker", "heroicons", "languagedetector"]
+}
