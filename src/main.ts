@@ -12,7 +12,7 @@ async function bootstrap() {
   // config swagger
   configSWagger(app);
 
-  app.setGlobalPrefix(API_PREFIX_PATH);
+  // app.setGlobalPrefix(API_PREFIX_PATH);
 
   await app.listen(PORT);
   Logger.log(`http://localhost:${PORT}${API_PREFIX_PATH}`);
